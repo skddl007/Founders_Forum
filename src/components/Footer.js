@@ -122,6 +122,12 @@ const Footer = () => {
           <p className="text-secondary-400">
             &copy; 2025 The Founders Forum. All rights reserved.
           </p>
+          <p className="text-secondary-500 text-sm mt-2">
+            Developed by{' '}
+            <span className="text-primary-300 font-semibold hover:text-primary-200 transition-colors duration-300">
+              Sandeep Kumar
+            </span>
+          </p>
         </div>
       </div>
     </footer>
