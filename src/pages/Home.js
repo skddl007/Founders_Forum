@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { facultyAdvisor, mainTeamMembers } from '../components/TeamData';
 import RegistrationForm from '../components/RegistrationForm';
 import JoinDeadlineBanner from '../components/JoinDeadlineBanner';
+import { WhatsAppBanner } from '../components/WhatsAppJoin';
 
 const Home = () => {
 
@@ -265,6 +266,15 @@ const Home = () => {
                 showBenefits={true}
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* WhatsApp Community Section */}
+      <section className="section bg-gradient-to-br from-green-50 to-green-100">
+        <div className="container">
+          <div className="animate-fade-in">
+            <WhatsAppBanner className="max-w-4xl mx-auto" />
           </div>
         </div>
       </section>

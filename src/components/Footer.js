@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import WhatsAppJoin from './WhatsAppJoin';
 
 const Footer = () => {
   return (
@@ -84,6 +85,15 @@ const Footer = () => {
               >
                 <span className="text-sm font-semibold">📷</span>
               </a>
+            </div>
+            <div className="mt-4">
+              <WhatsAppJoin 
+                variant="outline" 
+                size="small" 
+                className="w-full bg-transparent border-green-500 text-green-400 hover:bg-green-500 hover:text-white"
+              >
+                Join WhatsApp Group
+              </WhatsAppJoin>
             </div>
           </div>
           

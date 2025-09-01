@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { verifyEmail } from '../utils/authService';
-import { sendWelcomeEmail, sendAdminNotification } from '../utils/emailService';
 
 const EmailVerification = () => {
   const [searchParams] = useSearchParams();

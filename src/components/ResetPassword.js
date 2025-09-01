@@ -33,7 +33,6 @@ const ResetPassword = () => {
     try {
       // Get the access token from URL parameters
       const accessToken = searchParams.get('access_token');
-      const refreshToken = searchParams.get('refresh_token');
 
       if (!accessToken) {
         setError('Invalid reset link. Please request a new password reset.');

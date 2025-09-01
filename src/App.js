@@ -4,6 +4,7 @@ import { getCurrentUserFromStorage, isAuthenticated } from './utils/authService'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import NotificationManager from './components/NotificationManager';
+import { WhatsAppFloating } from './components/WhatsAppJoin';
 import Home from './pages/Home';
 import About from './pages/About';
 import Vision from './pages/Vision';
@@ -82,6 +83,7 @@ function App() {
         </main>
         <Footer />
         {user && <NotificationManager user={user} />}
+        <WhatsAppFloating />
       </div>
     </Router>
   );

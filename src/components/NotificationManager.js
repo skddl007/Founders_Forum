@@ -39,7 +39,7 @@ const NotificationManager = ({ user }) => {
     if (user) {
       fetchNotifications();
     }
-  }, [user, fetchNotifications]);
+  }, [user]);
 
   const handleClosePopup = (notificationId) => {
     setPopupNotifications(prev => prev.filter(n => n.id !== notificationId));

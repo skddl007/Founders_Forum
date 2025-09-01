@@ -25,6 +25,25 @@ vercel
 vercel --prod
 ```
 
+## 💬 Join Our WhatsApp Community
+
+Stay connected with fellow entrepreneurs and get real-time updates!
+
+[![Join WhatsApp Group](https://img.shields.io/badge/WhatsApp-Join%20Group-green?style=for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/JxZfk1pSxXA5vXMbuCB9Vw)
+
+**Why Join?**
+- 📱 **Real-time Updates**: Get instant notifications about events and meetings
+- 🤝 **Network**: Connect with other startup founders and entrepreneurs
+- 💡 **Share Ideas**: Discuss innovative concepts and get feedback
+- 📚 **Learn**: Access exclusive resources and mentorship opportunities
+- 🚀 **Collaborate**: Find potential co-founders and team members
+
+**Group Guidelines:**
+- Be respectful and professional
+- Share relevant startup and entrepreneurship content
+- No spam or promotional messages
+- Help fellow members with questions and advice
+
 ## 🚀 Features
 
 ### Core Functionality
@@ -214,6 +233,7 @@ For support and questions:
 - Create an issue in the repository
 - Contact the development team
 - Check the documentation for common solutions
+- Join our [WhatsApp Group](https://chat.whatsapp.com/JxZfk1pSxXA5vXMbuCB9Vw) for real-time support
 
 ## 🔄 Version History
 
@@ -223,6 +243,7 @@ For support and questions:
   - Responsive design
   - Community features
   - Vercel deployment configuration
+  - WhatsApp community integration
 
 ---
 
